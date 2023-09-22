@@ -1,6 +1,6 @@
 
 .gg1 {
-background: #31343c;
+background: #ffffff;
 width: 305px;
 height: 50px;
 position: relative;
@@ -8,13 +8,13 @@ position: relative;
 
 justify-content: space-around; 
 margin-top: 50px;
-box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.05), -6px -7px 7px 0px rgba(255, 255, 255, 0.05));
+box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.543), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.09), -6px -7px 7px 0px rgba(21, 19, 19, 0.49));
 }
 .gallery-1{
-color: #9efff8;
+color: #31343c;
 text-align: center;
 justify-content: center;
-font: 500 40px/100% 'Roboto', sans-serif;
+font: 800 40px/100% 'Roboto', sans-serif;
 position: relative;
 }
 

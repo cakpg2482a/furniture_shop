@@ -35,8 +35,8 @@ export default function Home() {
         </div>
 
           <About/>
-          {/* <Product/> */}
-          {/* <Gallery/> */}
+          <Product/>
+          <Gallery/>
           {/* <Calendar/> */}
           {/* <Contact/> */}
       

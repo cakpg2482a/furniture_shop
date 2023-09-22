@@ -1,25 +1,25 @@
 /* PRODUCT LOGO */
 
 .rectangle-92 {
-    background: #31343c;
+    background: #ffffff;
     width: 305px;
     height: 50px;
     position: relative;
     /* width: 100%; */
-
+   
     justify-items: center;
     /* display: flex; */
     justify-content: space-around;
     margin-top: 40px;
-
-    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.05), -6px -7px 7px 0px rgba(255, 255, 255, 0.05));
+    border:1px solid #31343c;
+    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.543), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.09), -6px -7px 7px 0px rgba(21, 19, 19, 0.49));
 }
 
 .our-product {
-    color: #9efff8;
+    color: #31343c;
     text-align: center;
     justify-content: center;
-    font: 500 40px/100% 'Roboto', sans-serif;
+    font: 800 40px/100% 'Roboto', sans-serif;
     position: relative;
 }
 
@@ -33,11 +33,11 @@
 
 .rectangle-90 {
     margin-left: 10px;
-    background: #31343c;
+    background: #ffffff;
     width: 270px;
     height: 392px;
     position: relative;
-    box-shadow: var(--new-box-shadow, 9px 9px 7px 1px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.262), -6px -7px 7px 0px rgba(255, 255, 255, 0.091));
+    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.543), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.09), -6px -7px 7px 0px rgba(21, 19, 19, 0.49));
 }
 
 .rectangle-91 {
@@ -88,33 +88,15 @@
         margin-top: 40px;
         height: 400px;
         width: 300px;
-        background: #31343c;
-        box-shadow: var(--new-box-shadow, 9px 9px 7px 1px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.262), -6px -7px 7px 0px rgba(255, 255, 255, 0.091));
-        /* color: #ffffff;
-      text-align: left;
-      font: 400 20px/ 'Roboto', sans-serif; */
+        background: #ffffff;
+        box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.543), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.09), -6px -7px 7px 0px rgba(21, 19, 19, 0.49));
+      
 
     }
 
-    /* .rectangle-90 {
-        margin-left: 10px;
-        background: #31343c;
-        width: 400px;
-        height: 400px;
-        position: relative;
-        box-shadow: var(--new-box-shadow, 9px 9px 7px 1px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.262), -6px -7px 7px 0px rgba(255, 255, 255, 0.091));
-    }
-
-    .rectangle-91 {
-        width: 350px;
-        height: 297px;
-        position: relative;
-        margin-left: 50px;
-        margin-top: 10px;
-    }*/
-
-    .fashion {
-        color: #ffffff;
+ 
+    .furniture {
+        color: #31343c;
         text-align: left;
         font: 400 20px/ 'Roboto', sans-serif;
         position: relative;
@@ -125,17 +107,18 @@
 
 
     .bx-rupee {
+        color: #31343c;
         position: relative;
         overflow: visible;
         margin-top: 10px;
         margin-left: 10px;
-
+        
     }
 
 
 
     ._2000-00 {
-        color: #ffffff;
+        color: #31343c;
         text-align: left;
         font: 600 20px/ 'Roboto', sans-serif;
         position: relative;
@@ -147,7 +130,7 @@
     .ellipse-17 {
         border-radius: 50%;
         border-style: solid;
-        border-color: #9efff8;
+        border-color: #31343c;
         border-width: 1px;
         width: 50px;
         height: 50px;
@@ -171,24 +154,8 @@
 }
 
 
-
-/* @media (max-width:300px) {
-    .rectangle-91 {
-        width: 248px;
-        height: 297px;
-        position: relative;
-        margin-left: 20px;
-        margin-top: 20px;
-
-        box-shadow: var(--new-box-shadow, 7px 7px 7px px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.262), -6px -7px 7px 0px rgba(255, 255, 255, 0.091));
-    }
-
-
-
-} */
-
-.fashion {
-    color: #ffffff;
+.furniture {
+    color: #31343c;
     text-align: left;
     font: 400 20px/ 'Roboto', sans-serif;
     position: relative;
@@ -209,7 +176,7 @@
 
 
 ._2000-00 {
-    color: #ffffff;
+    color: #31343c;
     text-align: left;
     font: 600 20px/ 'Roboto', sans-serif;
     position: relative;
@@ -221,7 +188,7 @@
 .ellipse-17 {
     border-radius: 50%;
     border-style: solid;
-    border-color: #9efff8;
+    border-color: #31343c;
     border-width: 1px;
     width: 50px;
     height: 50px;
