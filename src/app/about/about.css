@@ -6,29 +6,29 @@
 
 /* } */
 
-.heading {
+.heading1 {
 
-  color: #FFF;
+  color: #31343C;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight :900;
   line-height: 100%;
   text-transform: capitalize;
   text-align: center;
  
-  margin-top: 20px;
+  margin-top: 5px;
   /* position:relative; */
   /* width: 1200px; */
   /* width: auto; */
 
 }
 
-.heading1 {
+.heading11 {
 
-  color: #FFF;
+  color: #31343C;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   line-height: 100%;
   text-transform: capitalize;
@@ -36,11 +36,12 @@
   margin-top: 20px;
   margin-left: 10px;
   position: relative;
+  font-weight: bold;
 }
 
 .btn {
   /* position: absolute; */
-  background-color:#31343C ;
+  background-color:#ffffff ;
   width: 100%;
   height:auto;
   background-size:fixed;
@@ -317,7 +318,7 @@ _2972-westheimer-rd-santa-ana-illinois-85486,
   margin-top: -20px;
   border-radius: 50px;
   background-color:#31343C;
-  border-color: #9efff8;
+  border-color: #ffffff;
   
 }
 

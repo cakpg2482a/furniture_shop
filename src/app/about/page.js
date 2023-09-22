@@ -13,10 +13,10 @@ import Youtube from "../../../public/button-icon/ri_youtube-line.svg";
 export default function About() {
     return (
     <>
- <div style={{height:"100%",width:"100%",backgroundColor:"#31343C"}}>
-        <div className="container1">
-            <h3 className="heading">Women Clothes</h3>
-               <p className="heading1">Clothing(also known as clothes,<br/> garments, dress, apparel, or attire)<br></br>is any item worn on the body.  </p>
+ <div style={{height:"100%",width:"100%",backgroundColor:"#ffffff"}}>
+        <div className="container11">
+            <h3 className="heading1">Furniture</h3>
+               <p className="heading11">Furniture can be a product of design and <br/>can be considered a form of decorative art.<br/> In addition to furniture's functional role,<br/> it can serve a symbolic or religious purpose. </p>
         </div>
         {/* .................... */}
         <div className="btn">

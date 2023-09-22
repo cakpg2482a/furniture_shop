@@ -1,7 +1,7 @@
 import Image from "next/image"
 import "./home.css"
-import profile from "./images/Rectangle 25.png"
-import profile1 from "./images/Rectangle 64.png"
+import profile from "./images/Rectangle 25.jpg"
+import profile1 from "./images/Rectangle 64.jpg"
 import "bootstrap/dist/css/bootstrap.min.css";
 import Product from "../product/page"
 import Gallery from "../gallery/page"
@@ -14,6 +14,7 @@ import Calendar from "../calendar/calendar";
 export default function Home() {
     return (
         <>
+        <div className="maindiv">
          
            <Image className="rectangle-25"
                 src={profile}
@@ -31,13 +32,13 @@ export default function Home() {
              
             />
         
-       
+        </div>
 
           <About/>
-          <Product/>
-          <Gallery/>
-          <Calendar/>
-          <Contact/>
+          {/* <Product/> */}
+          {/* <Gallery/> */}
+          {/* <Calendar/> */}
+          {/* <Contact/> */}
       
       
           

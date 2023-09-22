@@ -1,4 +1,7 @@
-
+.maindiv{
+  height: 600px;
+  border:1px solid black
+}
 
 
 .rectangle-25 {
@@ -26,6 +29,20 @@
   overflow: visible;
   
 } 
+@media only screen and (max-width: 414px) {
+  .rounded {
+    border-radius:500px;
+    width: 50%;
+    height:30%;
+    position:relative;
+    margin-top: -90px;
+    border : 8px solid #31343C;
+  
+    box-shadow :0px 0px 5px rgb(255, 255, 255);
+ 
+    overflow: visible;
+}
+}
 
 
 
