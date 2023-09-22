@@ -38,13 +38,13 @@ export default function Calendar() {
 
    // Define styles for selected and unselected dates
    const selectedDateStyle = {
-       backgroundColor: 'white',
-       color: 'black',
+       backgroundColor: '#31343c',
+       color: 'white',
    };
 
    const unselectedDateStyle = {
-       backgroundColor: 'transparent',
-       color: 'white',
+       backgroundColor: 'white',
+       color: '#31343c',
    };
 
   return (<>
@@ -55,7 +55,7 @@ export default function Calendar() {
             </div>
     <div className="calendar-container container">
       <div className="row">
-        <div className="col-md-6 col-12">
+        <div className="col-md-6 col-12"style={{border:"1px solid gray"}}>
           {" "}
           {/* Column for Business Hours */}
           <div className="business-time text-center">
@@ -116,7 +116,7 @@ export default function Calendar() {
           </div>
         </div>
 
-        <div className="col-md-6 col-12">
+        <div className="col-md-6 col-12"style={{border:"1px solid gray"}}>
           {" "}
           {/* Column for Calendar */}
           <p className="appointment mt-1">Make an Appointment</p>

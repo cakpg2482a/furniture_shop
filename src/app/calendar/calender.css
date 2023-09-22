@@ -2,15 +2,16 @@
    
  
   .business-text {
+ 
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0em;
-    color: #9efff8;
-    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.05), -6px -7px 7px 0px rgba(255, 255, 255, 0.05));
-  }
-  
+    color: #31343c;
+    border-radius: 100px;
+    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.183), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.006), -6px -7px 7px 0px rgba(21, 19, 19, 0.274));  }
+    
   .business-chart {
     margin-top: 20px;
   }
@@ -32,7 +33,7 @@
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
-    color: #9efff8;
+    color: #31343c;
   }
   .time {
     margin-left: 50px;
@@ -42,11 +43,11 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
-    color: #9efff8;
+    color: #31343c;
   }
   
   .calendar-container {
-    background-color: #31343c;
+    background-color: #ffffff;
     margin-top: 90px;
   }
   
@@ -63,28 +64,32 @@
   .month {
     /* padding: 70px 25px; */
     width: 80%;
-     background: #31343c;
+     background: #ffffff;
     text-align: center;
     margin-top: -40px;
+    cursor: pointer;
 
   }
   
   .month ul {
     margin: 10;
     padding: 0;
+
   }
   
   .month ul li {
-    color:  #9efff8;
+    color:  #31343c;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    cursor: pointer;
   }
   
   .month .prev {
     float: left;
     padding-top: 5px;
     cursor: pointer
+  
   }
   
   .month .next {
@@ -96,22 +101,23 @@
   .weekdays {
     margin: 10;
     padding: 10px 0;
-    background-color: #31343c;
+    background-color: #ffffff;
     cursor: pointer
   }
   
   .weekdays li {
     display: inline-block;
     width: 13.6%;
-    color:  #9efff8;
+    color:  #31343c;
     text-align: center;
     cursor: pointer
   }
   
   .days {
     padding: 10px 0;
-     background: #31343c;
-    margin: 0;
+     background: #ffffff;
+     margin: 0;
+     cursor: pointer;
   }
   
   .days li {
@@ -121,14 +127,16 @@
     text-align: center;
     margin-bottom: 5px;
     font-size: 12px;
-    color:  #9efff8;
+    color:  #31343c;
+    cursor: pointer;
   }
   
   .days li .active {
     padding: 5px;
-    background: #9efff8;
+    background: #ffffff;
     border-radius: 50px;
     color:  #31343c!important;
+    cursor: pointer;
   }
   /* .selected {
     background-color: white;
@@ -145,9 +153,9 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    color: #9efff8;
-    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.05), -6px -7px 7px 0px rgba(255, 255, 255, 0.05));
-  }
+    color: #31343c;
+    border-radius: 100px;
+    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.183), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.006), -6px -7px 7px 0px rgba(21, 19, 19, 0.274));}
   
   .hour-text {
     font-family: Poppins;
@@ -159,7 +167,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    color: #9efff8;
+    color: #31343c;
     margin-top: 4%;
   }
   
@@ -171,8 +179,8 @@
     letter-spacing: 0em;
     text-align: left;
     margin: 5px;
-    color: #9efff8;
-    background: #31343c;
+    color: #31343c;
+    background: #ffffff;
     box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.05), -6px -7px 7px 0px rgba(255, 255, 255, 0.05));
   }
   
@@ -184,7 +192,7 @@
     border-radius: 5px;
     gap: 10px;
     border: none;
-    background: #31343c;
+    background: #ffffff;
   }
   .appointment-btn {
     width: 380px;
@@ -193,10 +201,10 @@
     left: 838px;
     border-radius: 10px;
     border: none;
-    background-color: #31343c;
-    color: #9efff8;
-    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.05), -6px -7px 7px 0px rgba(255, 255, 255, 0.05));
-  }
+    background-color: #ffffff;
+    color: #31343c;
+    border-radius: 100px;
+    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.183), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.006), -6px -7px 7px 0px rgba(21, 19, 19, 0.274));}
   .appointment-text {
     font-family: Poppins;
     font-size: 20px;
@@ -210,8 +218,8 @@
     justify-content: center;
     display: flex;
     /* margin: 5px; */
-    background-color: #31343c;
-    color: #9efff8;
+    background-color: #ffffff;
+    color: #31343c;
     box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.05), -6px -7px 7px 0px rgba(255, 255, 255, 0.05));
   }
   
@@ -219,7 +227,7 @@
   .from-container {
     width: 1280px;
     height: 294px;
-    background-color: #9efff8;
+    background-color: #31343c;
     margin-top: 80px;
   }
   
