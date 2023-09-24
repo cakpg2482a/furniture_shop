@@ -14,7 +14,7 @@ import Calendar from "../calendar/calendar";
 export default function Home() {
     return (
         <>
-        <div className="ggggg">
+        <div style={{height:"600px"}}>
          
            <Image className="rectangle-25"
                 src={profile}
