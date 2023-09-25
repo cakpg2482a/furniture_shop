@@ -10,10 +10,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export default function Product() {
     let images = [
-        { src: "/Rectangle 78.png", alt: '', height: 500, width: 300 },
-        { src: "/Rectangle 75.png", alt: 'Image 2', height: 500, width: 300 },
-        { src: "/Rectangle 72.png", alt: 'Image 3', height: 500, width: 300 },
-        { src: "/Rectangle 69.png", alt: 'Image 4', height: 500, width: 300 },
+        { src: "/Rectangle 78.png", alt: '', height: 500, width: 150 },
+        { src: "/Rectangle 75.png", alt: 'Image 2', height: 500, width: 150 },
+        { src: "/Rectangle 72.png", alt: 'Image 3', height: 500, width: 150 },
+        { src: "/Rectangle 69.png", alt: 'Image 4', height: 500, width: 150 },
+        { src: "/Rectangle 82.png", alt: 'Image 5', height: 500, width: 150 },
     ];
     return (<>
 

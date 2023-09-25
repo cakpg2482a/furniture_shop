@@ -40,11 +40,13 @@ export default function Calendar() {
    const selectedDateStyle = {
        backgroundColor: '#31343c',
        color: 'white',
+       borderRadius: '10px',
    };
 
    const unselectedDateStyle = {
        backgroundColor: 'white',
        color: '#31343c',
+       borderRadius: '5px',
    };
 
   return (<>
