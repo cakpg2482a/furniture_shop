@@ -204,7 +204,12 @@
     background-color: #ffffff;
     color: #31343c;
     border-radius: 100px;
-    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.183), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.006), -6px -7px 7px 0px rgba(21, 19, 19, 0.274));}
+    box-shadow: var(--new-box-shadow, 5px 5px 7px 0px rgba(0, 0, 0, 0.183), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.006), -6px -7px 7px 0px rgba(21, 19, 19, 0.274));
+  }
+  .appointment-btn:hover{
+    background: #31343C;
+    color: #ffffff;
+  }
   .appointment-text {
     font-family: Poppins;
     font-size: 20px;

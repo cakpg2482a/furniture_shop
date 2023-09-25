@@ -59,7 +59,7 @@
     position: relative;
     box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.20), 1px 1px 2px 0px rgba(0, 0, 0, 0.05), -2px -2px 2px 0px rgba(255, 255, 255, 0.05), -6px -7px 7px 0px rgba(255, 255, 255, 0.05);
   }
-  .btn1 :hover {
+  .btn1:hover {
     background: #31343C;
     
     border-radius: 10px;
