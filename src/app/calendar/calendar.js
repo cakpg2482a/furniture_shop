@@ -102,14 +102,14 @@ export default function Calendar() {
                     <Image src={date1} className="date-img"alt="" />
                   </button>
                   <p className="day_1">Saturday</p>
-                  <p className="time">Holyday</p>
+                  <p className="time">Holiday</p>
                 </li>
                 <li>
                   <button className="date-btn">
                     <Image src={date1} className="date-img"alt="" />
                   </button>
                   <p className="day_1">Sunday</p>
-                  <p className="time">Holyday</p>
+                  <p className="time">Holiday</p>
                 </li>
               </ul>
             </div>
